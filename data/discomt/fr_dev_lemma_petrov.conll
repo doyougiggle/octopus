@@ -3042,6 +3042,7 @@
 14	,	,	.	.	_	5	punct	_	_
 15	le	le	DET	DET	_	16	det	_	_
 16	cycle	cycle	NOUN	NOUN	_	5	obj	_	_
+17	4-temps	4-temps	NOUN	NOUN	_	16	appos	_	_
 18	utiliser	utiliser	VERB	VERB	_	16	acl	_	_
 19	par	par	ADP	ADP	_	21	case	_	_
 20	le	le	DET	DET	_	21	det	_	_
@@ -5567,6 +5568,7 @@
 23	Apm	Apm	NOUN	NOUN	_	21	appos	_	_
 24	61	61	NUM	NUM	_	23	nummod	_	_
 25	85	85	NUM	NUM	_	23	nummod	_	_
+26	19-90	19-90	NUM	NUM	_	23	nummod	_	_
 27	pour	pour	ADP	ADP	_	29	case	_	_
 28	son	son	DET	DET	_	29	nmod:poss	_	_
 29	liaison	liaison	NOUN	NOUN	_	16	obl	_	_
@@ -7083,6 +7085,7 @@
 26	contre	contre	ADP	ADP	_	28	case	_	_
 27	le	le	DET	DET	_	28	det	_	_
 28	Milan	Milan	NOUN	NOUN	_	25	nmod	_	_
+29	4-3	4-3	NUM	NUM	_	25	appos	_	_
 30	en	en	ADP	ADP	_	31	case	_	_
 31	Serie	Serie	NOUN	NOUN	_	25	nmod	_	_
 32	A	A	NOUN	NOUN	_	31	appos	_	_
@@ -9523,6 +9526,7 @@
 19	le	le	DET	DET	_	20	det	_	_
 20	club	club	NOUN	NOUN	_	15	nmod	_	_
 21	champion	champion	ADJ	ADJ	_	20	amod	_	_
+22	1971-72	1971-72	NUM	NUM	_	15	nmod	_	_
 23	.	.	.	.	_	12	punct	_	_
 
 1	préparer	préparer	VERB	VERB	_	7	acl	_	_
@@ -10449,6 +10453,7 @@
 27	von	von	ADP	ADP	_	26	flat:name	_	_
 28	Göchhausen	Göchhausen	NOUN	NOUN	_	26	flat:name	_	_
 29	(	(	.	.	_	30	punct	_	_
+30	1752-1807	1752-1807	NUM	NUM	_	28	nmod	_	_
 31	)	)	.	.	_	30	punct	_	_
 32	,	,	.	.	_	28	punct	_	_
 33	demeurer	demeurer	VERB	VERB	_	9	advcl	_	_
@@ -15284,6 +15289,7 @@
 25	le	le	DET	DET	_	26	det	_	_
 26	hiver	hiver	NOUN	NOUN	_	22	conj	_	_
 27	de	de	ADP	ADP	_	28	case	_	_
+28	1848-1849	1848-1849	NUM	NUM	_	26	nmod	_	_
 29	,	,	.	.	_	18	punct	_	_
 30	qui	qui	PRON	PRON	_	31	nsubj	_	_
 31	faire	faire	VERB	VERB	_	18	acl:relcl	_	_
@@ -20550,6 +20556,7 @@
 3	Bernardus	Bernardus	NOUN	NOUN	_	2	appos	_	_
 4	Désirant	Désirant	NOUN	NOUN	_	3	flat:name	_	_
 5	(	(	.	.	_	6	punct	_	_
+6	1656-1725	1656-1725	NUM	NUM	_	2	nmod	_	_
 7	)	)	.	.	_	6	punct	_	_
 8	,	,	.	.	_	17	punct	_	_
 9	professeur	professeur	NOUN	NOUN	_	2	appos	_	_
@@ -20645,6 +20652,7 @@
 
 1	le	le	DET	DET	_	2	det	_	_
 2	saison	saison	NOUN	NOUN	_	14	nsubj	_	_
+3	1974-1975	1974-1975	NUM	NUM	_	2	nmod	_	_
 4	de	de	ADP	ADP	_	6	case	_	_
 5	le	le	DET	DET	_	6	det	_	_
 6	championnat	championnat	NOUN	NOUN	_	2	nmod	_	_
@@ -21206,6 +21214,7 @@
 22	le	le	DET	DET	_	23	det	_	_
 23	Lakers	Lakers	NOUN	NOUN	_	24	nsubj	_	_
 24	gagner	gagner	VERB	VERB	_	14	conj	_	_
+25	4-0	4-0	NUM	NUM	_	24	obl	_	_
 26	.	.	.	.	_	9	punct	_	_
 
 1	dans	dans	ADP	ADP	_	3	case	_	_
@@ -21490,6 +21499,7 @@
 33	de	de	ADP	ADP	_	35	case	_	_
 34	le	le	DET	DET	_	35	det	_	_
 35	saison	saison	NOUN	NOUN	_	32	nmod	_	_
+36	2007-2008	2007-2008	NUM	NUM	_	35	nmod	_	_
 37	,	,	.	.	_	40	punct	_	_
 38	se	se	PRON	PRON	_	40	expl	_	_
 39	être	être	VERB	VERB	_	40	aux	_	_
@@ -23075,6 +23085,7 @@
 15	Épiphane	Épiphane	NOUN	NOUN	_	14	appos	_	_
 16	Lapointe	Lapointe	NOUN	NOUN	_	15	flat:name	_	_
 17	(	(	.	.	_	18	punct	_	_
+18	1822-1862	1822-1862	NUM	NUM	_	14	nmod	_	_
 19	)	)	.	.	_	18	punct	_	_
 20	.	.	.	.	_	3	punct	_	_
 
@@ -24168,6 +24179,7 @@
 29	but	but	NOUN	NOUN	_	27	obj	_	_
 30	de	de	ADP	ADP	_	32	case	_	_
 31	le	le	DET	DET	_	32	det	_	_
+32	1-0	1-0	NUM	NUM	_	29	nmod	_	_
 33	de	de	ADP	ADP	_	34	case	_	_
 34	Francesco	Francesco	NOUN	NOUN	_	29	nmod	_	_
 35	Moriero	Moriero	NOUN	NOUN	_	34	flat:name	_	_
@@ -24789,6 +24801,7 @@
 4	)	)	.	.	_	3	punct	_	_
 5	Ostijn	Ostijn	NOUN	NOUN	_	1	flat:name	_	_
 6	(	(	.	.	_	7	punct	_	_
+7	1913-1993	1913-1993	NUM	NUM	_	1	nmod	_	_
 8	)	)	.	.	_	7	punct	_	_
 9	être	être	VERB	VERB	_	11	cop	_	_
 10	un	un	DET	DET	_	11	det	_	_
@@ -24997,7 +25010,9 @@
 14	entre	entre	ADP	ADP	_	16	case	_	_
 15	le	le	DET	DET	_	16	det	_	_
 16	saison	saison	NOUN	NOUN	_	13	obl	_	_
+17	1966-67	1966-67	NUM	NUM	_	16	nmod	_	_
 18	et	et	CONJ	CONJ	_	19	cc	_	_
+19	1976-1977	1976-1977	NUM	NUM	_	17	conj	_	_
 20	soit	soit	CONJ	CONJ	_	22	cc	_	_
 21	11	11	NUM	NUM	_	22	nummod	_	_
 22	saison	saison	NOUN	NOUN	_	16	conj	_	_
@@ -25974,6 +25989,7 @@
 17	mars	mars	NOUN	NOUN	_	8	obl	_	_
 18	1870	1870	NUM	NUM	_	17	nmod	_	_
 19	(	(	.	.	_	20	punct	_	_
+20	1-1	1-1	NUM	NUM	_	17	nmod	_	_
 21	à	à	ADP	ADP	_	24	case	_	_
 22	le	le	DET	DET	_	24	det	_	_
 23	,	,	.	.	_	24	reparandum	_	_
@@ -27570,6 +27586,7 @@
 6	rugby	rugby	NOUN	NOUN	_	2	nmod	_	_
 7	à	à	ADP	ADP	_	8	case	_	_
 8	XV	XV	NUM	NUM	_	6	nmod	_	_
+9	1938-1939	1938-1939	NUM	NUM	_	2	nmod	_	_
 10	être	être	VERB	VERB	_	12	cop	_	_
 11	le	le	DET	DET	_	12	det	_	_
 12	édition	édition	NOUN	NOUN	_	0	root	_	_
@@ -28002,6 +28019,7 @@
 9	(	(	.	.	_	10	punct	_	_
 10	DC	DC	X	X	_	8	appos	_	_
 11	n°	n°	X	X	_	10	compound	_	_
+12	2010-626	2010-626	NUM	NUM	_	10	compound	_	_
 13	)	)	.	.	_	10	punct	_	_
 14	de	de	ADP	ADP	_	17	case	_	_
 15	le	le	DET	DET	_	17	det	_	_
@@ -28872,6 +28890,7 @@
 19	le	le	DET	DET	_	20	det	_	_
 20	guerre	guerre	NOUN	NOUN	_	17	obl	_	_
 21	de	de	ADP	ADP	_	22	case	_	_
+22	39-45	39-45	NUM	NUM	_	20	nmod	_	_
 23	.	.	.	.	_	5	punct	_	_
 
 1	un	un	DET	DET	_	3	det	_	_
@@ -31999,6 +32018,7 @@
 39	le	le	DET	DET	_	40	det	_	_
 40	article	article	NOUN	NOUN	_	37	obl	_	_
 41	L.	L.	X	X	_	40	appos	_	_
+42	642-3	642-3	NUM	NUM	_	41	nummod	_	_
 43	et	et	CONJ	CONJ	_	44	cc	_	_
 44	suivant	suivant	ADJ	ADJ	_	41	conj	_	_
 45	de	de	ADP	ADP	_	47	case	_	_
@@ -32835,6 +32855,7 @@
 4	sur	sur	ADP	ADP	_	6	case	_	_
 5	le	le	DET	DET	_	6	det	_	_
 6	période	période	NOUN	NOUN	_	3	nmod	_	_
+7	1968-1975	1968-1975	NUM	NUM	_	6	nmod	_	_
 8	,	,	.	.	_	11	punct	_	_
 9	elle	elle	PRON	PRON	_	11	nsubj	_	_
 10	être	être	VERB	VERB	_	11	aux	_	_
@@ -32845,6 +32866,7 @@
 15	sur	sur	ADP	ADP	_	17	case	_	_
 16	le	le	DET	DET	_	17	det	_	_
 17	période	période	NOUN	NOUN	_	14	nmod	_	_
+18	1999-2009	1999-2009	NUM	NUM	_	17	nmod	_	_
 19	,	,	.	.	_	11	punct	_	_
 20	quand	quand	CONJ	CONJ	_	29	mark	_	_
 21	celui	celui	PRON	PRON	_	29	nsubj	_	_
@@ -35027,6 +35049,7 @@
 24	de	de	ADP	ADP	_	25	case	_	_
 25	Trobriand	Trobriand	NOUN	NOUN	_	23	nmod	_	_
 26	(	(	.	.	_	27	punct	_	_
+27	1729-1810	1729-1810	NUM	NUM	_	23	nmod	_	_
 28	)	)	.	.	_	27	punct	_	_
 29	et	et	CONJ	CONJ	_	30	cc	_	_
 30	Jeanne	Jeanne	NOUN	NOUN	_	18	conj	_	_
@@ -36061,6 +36084,7 @@
 1	Jean	Jean	NOUN	NOUN	_	10	nsubj	_	_
 2	Dubuffet	Dubuffet	NOUN	NOUN	_	1	flat:name	_	_
 3	(	(	.	.	_	4	punct	_	_
+4	1901-1985	1901-1985	NUM	NUM	_	1	nmod	_	_
 5	)	)	.	.	_	4	punct	_	_
 6	lui-même	lui-même	PRON	PRON	_	1	nmod	_	_
 7	être	être	VERB	VERB	_	10	cop	_	_
@@ -37074,6 +37098,7 @@
 1	Marius	Marius	NOUN	NOUN	_	8	nsubj	_	_
 2	Plateau	Plateau	NOUN	NOUN	_	1	flat:name	_	_
 3	(	(	.	.	_	4	punct	_	_
+4	1886-1923	1886-1923	NUM	NUM	_	1	nmod	_	_
 5	)	)	.	.	_	4	punct	_	_
 6	être	être	VERB	VERB	_	8	cop	_	_
 7	un	un	DET	DET	_	8	det	_	_

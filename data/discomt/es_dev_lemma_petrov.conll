@@ -2658,6 +2658,7 @@
 
 1	tener	tener	VERB	VERB	_	0	root	_	_
 2	de	de	ADP	ADP	_	4	case	_	_
+3	38-41	38-41	X	X	_	4	nummod	_	_
 4	cm	cm	X	X	_	1	obl	_	_
 5	de	de	ADP	ADP	_	6	case	_	_
 6	largo	largo	NOUN	NOUN	_	4	nmod	_	_
@@ -2716,6 +2717,7 @@
 12	que	que	CONJ	CONJ	_	13	mark	_	_
 13	vivir	vivir	VERB	VERB	_	3	acl:relcl	_	_
 14	entre	entre	ADP	ADP	_	16	case	_	_
+15	90-1100	90-1100	X	X	_	16	nummod	_	_
 16	m	m	X	X	_	13	obl	_	_
 17	de	de	ADP	ADP	_	18	case	_	_
 18	profundidad	profundidad	NOUN	NOUN	_	16	nmod	_	_
@@ -3909,6 +3911,7 @@
 12	empezar	empezar	VERB	VERB	_	2	acl	_	_
 13	el	el	DET	DET	_	14	det	_	_
 14	temporada	temporada	NOUN	NOUN	_	12	obj	_	_
+15	1994-95	1994-95	NUM	NUM	_	14	nummod	_	_
 16	de	de	ADP	ADP	_	18	case	_	_
 17	el	el	DET	DET	_	18	det	_	_
 18	nba	nba	NOUN	NOUN	_	14	nmod	_	_
@@ -4646,6 +4649,7 @@
 14	en	en	ADP	ADP	_	16	case	_	_
 15	el	el	DET	DET	_	16	det	_	_
 16	clase	clase	NOUN	NOUN	_	13	obl	_	_
+17	5-1	5-1	NUM	NUM	_	16	nummod	_	_
 18	,	,	.	.	_	22	punct	_	_
 19	tōma	tōma	NOUN	NOUN	_	22	nsubj	_	_
 20	,	,	.	.	_	22	punct	_	_
@@ -5514,6 +5518,7 @@
 13	casa	casa	NOUN	NOUN	_	10	nmod	_	_
 14	blanca	blanca	NOUN	NOUN	_	13	amod	_	_
 15	(	(	.	.	_	16	punct	_	_
+16	1973-1974	1973-1974	NUM	NUM	_	8	nmod	_	_
 17	)	)	.	.	_	16	punct	_	_
 18	durante	durante	ADP	ADP	_	20	case	_	_
 19	el	el	DET	DET	_	20	det	_	_
@@ -5523,6 +5528,7 @@
 23	de	de	ADP	ADP	_	24	case	_	_
 24	estado	estado	NOUN	NOUN	_	20	nmod	_	_
 25	(	(	.	.	_	26	punct	_	_
+26	1981-1982	1981-1982	NUM	NUM	_	20	nmod	_	_
 27	)	)	.	.	_	26	punct	_	_
 28	.	.	.	.	_	8	punct	_	_
 
@@ -7939,6 +7945,7 @@
 1	el	el	DET	DET	_	2	det	_	_
 2	serie	serie	NOUN	NOUN	_	9	nsubj	_	_
 3	a	a	NOUN	NOUN	_	2	appos	_	_
+4	1982-1983	1982-1983	NUM	NUM	_	2	appos	_	_
 5	ser	ser	VERB	VERB	_	9	cop	_	_
 6	el	el	DET	DET	_	8	det	_	_
 7	octogésimo	octogésimo	ADJ	ADJ	_	8	nummod	_	_
@@ -12619,6 +12626,7 @@
 15	eduardo	eduardo	NOUN	NOUN	_	14	appos	_	_
 16	poeppig	poeppig	NOUN	NOUN	_	15	flat	_	_
 17	(	(	.	.	_	18	punct	_	_
+18	1798-1868	1798-1868	NUM	NUM	_	15	appos	_	_
 19	)	)	.	.	_	18	punct	_	_
 20	.	.	.	.	_	5	punct	_	_
 
@@ -15882,6 +15890,7 @@
 21	alfonso	alfonso	NOUN	NOUN	_	19	nmod	_	_
 22	x	x	NOUN	NOUN	_	21	nummod	_	_
 23	(	(	.	.	_	24	punct	_	_
+24	1252-1284	1252-1284	NUM	NUM	_	19	appos	_	_
 25	)	)	.	.	_	24	punct	_	_
 26	,	,	.	.	_	19	punct	_	_
 27	con	con	ADP	ADP	_	29	case	_	_
@@ -17879,6 +17888,7 @@
 24	bellium	bellium	NOUN	NOUN	_	26	obl	_	_
 25	él	él	PRON	PRON	_	26	iobj	_	_
 26	formar	formar	VERB	VERB	_	5	advcl	_	_
+27	4-6	4-6	NUM	NUM	_	28	nummod	_	_
 28	escama	escama	NOUN	NOUN	_	26	nsubj	_	_
 29	membranoso	membranoso	ADJ	ADJ	_	28	amod	_	_
 30	como	como	ADP	ADP	_	31	case	_	_
@@ -22802,6 +22812,7 @@
 26	.	.	.	.	_	2	punct	_	_
 
 1	de	de	ADP	ADP	_	2	case	_	_
+2	1999-2003	1999-2003	NUM	NUM	_	4	nmod	_	_
 3	ser	ser	VERB	VERB	_	4	cop	_	_
 4	embajador	embajador	NOUN	NOUN	_	0	root	_	_
 5	ante	ante	ADP	ADP	_	7	case	_	_
@@ -27599,10 +27610,12 @@
 26	.	.	.	.	_	1	punct	_	_
 
 1	cápsula	cápsula	NOUN	NOUN	_	0	root	_	_
+2	1.11.3	1.11.3	NUM	NUM	_	3	nummod	_	_
 3	mm	mm	X	X	_	1	appos	_	_
 4	de	de	ADP	ADP	_	5	case	_	_
 5	largo	largo	ADJ	ADJ	_	3	amod	_	_
 6	y	y	CONJ	CONJ	_	8	cc	_	_
+7	1.21.5	1.21.5	NUM	NUM	_	8	nummod	_	_
 8	mm	mm	X	X	_	3	conj	_	_
 9	de	de	ADP	ADP	_	10	case	_	_
 10	ancho	ancho	ADJ	ADJ	_	8	amod	_	_
@@ -28482,6 +28495,7 @@
 13	el	el	DET	DET	_	14	det	_	_
 14	partido	partido	NOUN	NOUN	_	1	obl	_	_
 15	celtic	celtic	NOUN	NOUN	_	14	appos	_	_
+16	3-1	3-1	X	X	_	14	appos	_	_
 17	dunfermline	dunfermline	NOUN	NOUN	_	14	conj	_	_
 18	athletic	athletic	NOUN	NOUN	_	17	flat	_	_
 19	fc	fc	NOUN	NOUN	_	17	flat	_	_
@@ -32275,6 +32289,7 @@
 27	persuasión	persuasión	NOUN	NOUN	_	24	nmod	_	_
 28	.	.	.	.	_	18	punct	_	_
 
+1	23-02-010	23-02-010	X	X	_	14	dep	_	_
 2	/	/	.	.	_	1	punct	_	_
 3	el	el	DET	DET	_	4	det	_	_
 4	presidente	presidente	NOUN	NOUN	_	14	nsubj	_	_
@@ -32952,6 +32967,7 @@
 8	edward	edward	NOUN	NOUN	_	6	nmod	_	_
 9	dayes	dayes	NOUN	NOUN	_	8	flat	_	_
 10	(	(	.	.	_	11	punct	_	_
+11	1763-1804	1763-1804	X	X	_	8	appos	_	_
 12	)	)	.	.	_	11	punct	_	_
 13	,	,	.	.	_	8	punct	_	_
 14	uno	uno	DET	DET	_	15	det	_	_
@@ -34622,6 +34638,7 @@
 10	-	-	.	.	_	11	punct	_	_
 11	turco	turco	ADJ	ADJ	_	8	amod	_	_
 12	de	de	ADP	ADP	_	13	case	_	_
+13	1787-1792	1787-1792	X	X	_	8	nmod	_	_
 14	,	,	.	.	_	8	punct	_	_
 15	mansur	mansur	NOUN	NOUN	_	17	nsubj	_	_
 16	él	él	PRON	PRON	_	17	iobj	_	_

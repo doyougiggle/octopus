@@ -5209,6 +5209,7 @@
 1	call	call	VERB	VERB	_	0	root	_	_
 2	they	they	PRON	PRON	_	1	obj	_	_
 3	at	at	ADP	ADP	_	4	case	_	_
+4	303-832-8160	303-832-8160	NUM	NUM	_	1	obl	_	_
 5	.	.	.	.	_	1	punct	_	_
 
 1	they	they	PRON	PRON	_	4	nsubj	_	_
@@ -5975,6 +5976,7 @@
 27	robbrnglsn@aol.com	robbrnglsn@aol.com	X	X	_	24	obl	_	_
 28	or	or	CONJ	CONJ	_	30	cc	_	_
 29	at	at	ADP	ADP	_	30	case	_	_
+30	713-664-7478	713-664-7478	NUM	NUM	_	27	conj	_	_
 31	.	.	.	.	_	4	punct	_	_
 
 1	I	I	PRON	PRON	_	2	nsubj	_	_
@@ -6121,10 +6123,12 @@
 9	(	(	.	.	_	12	punct	_	_
 10	713	713	NUM	NUM	_	12	nummod	_	_
 11	)	)	.	.	_	12	punct	_	_
+12	853-3242	853-3242	NUM	NUM	_	8	appos	_	_
 13	cell	cell	NOUN	NOUN	_	2	list	_	_
 14	(	(	.	.	_	17	punct	_	_
 15	713	713	NUM	NUM	_	17	nummod	_	_
 16	)	)	.	.	_	17	punct	_	_
+17	705-7201	705-7201	NUM	NUM	_	13	appos	_	_
 
 1	Kay	Kay	NOUN	NOUN	_	0	root	_	_
 2	Mann	Mann	NOUN	NOUN	_	1	flat	_	_
@@ -6867,6 +6871,7 @@
 19	(	(	.	.	_	22	punct	_	_
 20	713	713	NUM	NUM	_	22	nummod	_	_
 21	)	)	.	.	_	22	punct	_	_
+22	235-1972	235-1972	NUM	NUM	_	10	list	_	_
 23	,	,	.	.	_	24	punct	_	_
 24	call	call	VERB	VERB	_	0	root	_	_
 25	and	and	CONJ	CONJ	_	26	cc	_	_
@@ -7514,16 +7519,19 @@
 15	Joan	Joan	NOUN	NOUN	_	14	obj	_	_
 16	Woodson	Woodson	NOUN	NOUN	_	15	flat	_	_
 17	(	(	.	.	_	18	punct	_	_
+18	3-5213	3-5213	NUM	NUM	_	15	appos	_	_
 19	)	)	.	.	_	18	punct	_	_
 20	,	,	.	.	_	21	punct	_	_
 21	Bert	Bert	NOUN	NOUN	_	15	conj	_	_
 22	Frazier	Frazier	NOUN	NOUN	_	21	flat	_	_
 23	(	(	.	.	_	24	punct	_	_
+24	3-5076	3-5076	NUM	NUM	_	21	appos	_	_
 25	)	)	.	.	_	24	punct	_	_
 26	or	or	CONJ	CONJ	_	27	cc	_	_
 27	Kathy	Kathy	NOUN	NOUN	_	15	conj	_	_
 28	Mayfield	Mayfield	NOUN	NOUN	_	27	flat	_	_
 29	(	(	.	.	_	30	punct	_	_
+30	3-3264	3-3264	NUM	NUM	_	27	appos	_	_
 31	)	)	.	.	_	30	punct	_	_
 32	.	.	.	.	_	1	punct	_	_
 
@@ -8142,6 +8150,7 @@
 26	collect	collect	ADV	ADV	_	24	advmod	_	_
 27	at	at	ADP	ADP	_	29	case	_	_
 28	+1	+1	NUM	NUM	_	29	nummod	_	_
+29	212-848-8400	212-848-8400	NUM	NUM	_	24	obl	_	_
 30	)	)	.	.	_	24	punct	_	_
 31	and	and	CONJ	CONJ	_	33	cc	_	_
 32	immediately	immediately	ADV	ADV	_	33	advmod	_	_
@@ -8975,7 +8984,9 @@
 20	MD	MD	NOUN	NOUN	_	18	appos	_	_
 21	21202	21202	NUM	NUM	_	16	appos	_	_
 22	phone	phone	NOUN	NOUN	_	2	list	_	_
+23	410-468-3798	410-468-3798	NUM	NUM	_	22	appos	_	_
 24	fax	fax	NOUN	NOUN	_	2	list	_	_
+25	410-468-3499	410-468-3499	NUM	NUM	_	24	appos	_	_
 26	email	email	NOUN	NOUN	_	2	list	_	_
 27	vangie.mcgilloway@powersrc.com	vangie.mcgilloway@powersrc.com	X	X	_	26	appos	_	_
 
@@ -9821,6 +9832,7 @@
 4	Crenshaw	Crenshaw	NOUN	NOUN	_	3	flat	_	_
 5	(	(	.	.	_	7	punct	_	_
 6	x	x	X	X	_	7	goeswith	_	_
+7	3-5290	3-5290	NUM	NUM	_	3	parataxis	_	_
 8	)	)	.	.	_	7	punct	_	_
 9	regard	regard	VERB	VERB	_	11	case	_	_
 10	a	a	DET	DET	_	11	det	_	_
@@ -10234,6 +10246,7 @@
 23	gte114t@prism.gatech.edu	gte114t@prism.gatech.edu	X	X	_	20	appos	_	_
 24	home	home	NOUN	NOUN	_	2	list	_	_
 25	:	:	.	.	_	2	punct	_	_
+26	404-449-1026	404-449-1026	NUM	NUM	_	24	appos	_	_
 27	office	office	NOUN	NOUN	_	2	list	_	_
 28	:	:	.	.	_	2	punct	_	_
 29	come	come	VERB	VERB	_	27	appos	_	_
@@ -12276,6 +12289,7 @@
 17	http://www.bbc.co.uk/email	http://www.bbc.co.uk/email	X	X	_	14	obl	_	_
 
 1	[	[	.	.	_	2	punct	_	_
+2	http://www.usatoday.com/tech/science/space/2005-03-09-nasa-search_x.htm?csp=34	http://www.usatoday.com/tech/science/space/2005-03-09-nasa-search_x.htm?csp=34	X	X	_	0	root	_	_
 3	]	]	.	.	_	2	punct	_	_
 
 1	while	while	CONJ	CONJ	_	4	mark	_	_
@@ -22044,6 +22058,7 @@
 11	(	(	.	.	_	14	punct	_	_
 12	989	989	NUM	NUM	_	14	nummod	_	_
 13	)	)	.	.	_	14	punct	_	_
+14	755-1109	755-1109	NUM	NUM	_	6	list	_	_
 
 1	excellent	excellent	ADJ	ADJ	_	2	amod	_	_
 2	service	service	NOUN	NOUN	_	0	root	_	_

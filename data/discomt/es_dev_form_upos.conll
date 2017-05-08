@@ -2658,6 +2658,7 @@
 
 1	Tiene	Tiene	VERB	VERB	_	0	root	_	_
 2	de	de	ADP	ADP	_	4	case	_	_
+3	38-41	38-41	X	X	_	4	nummod	_	_
 4	cm	cm	SYM	SYM	_	1	obl	_	_
 5	de	de	ADP	ADP	_	6	case	_	_
 6	largo	largo	NOUN	NOUN	_	4	nmod	_	_
@@ -2716,6 +2717,7 @@
 12	que	que	SCONJ	SCONJ	_	13	mark	_	_
 13	vive	vive	VERB	VERB	_	3	acl:relcl	_	_
 14	entre	entre	ADP	ADP	_	16	case	_	_
+15	970-1.100	970-1.100	X	X	_	16	nummod	_	_
 16	m	m	SYM	SYM	_	13	obl	_	_
 17	de	de	ADP	ADP	_	18	case	_	_
 18	profundidad	profundidad	NOUN	NOUN	_	16	nmod	_	_
@@ -3909,6 +3911,7 @@
 12	empezar	empezar	VERB	VERB	_	2	acl	_	_
 13	la	la	DET	DET	_	14	det	_	_
 14	temporada	temporada	NOUN	NOUN	_	12	obj	_	_
+15	1994-95	1994-95	NUM	NUM	_	14	nummod	_	_
 16	de	de	ADP	ADP	_	18	case	_	_
 17	la	la	DET	DET	_	18	det	_	_
 18	NBA	NBA	PROPN	PROPN	_	14	nmod	_	_
@@ -4646,6 +4649,7 @@
 14	en	en	ADP	ADP	_	16	case	_	_
 15	la	la	DET	DET	_	16	det	_	_
 16	clase	clase	NOUN	NOUN	_	13	obl	_	_
+17	5-1	5-1	NUM	NUM	_	16	nummod	_	_
 18	,	,	PUNCT	PUNCT	_	22	punct	_	_
 19	Tōma	Tōma	PROPN	PROPN	_	22	nsubj	_	_
 20	,	,	PUNCT	PUNCT	_	22	punct	_	_
@@ -5514,6 +5518,7 @@
 13	Casa	Casa	PROPN	PROPN	_	10	nmod	_	_
 14	Blanca	Blanca	PROPN	PROPN	_	13	amod	_	_
 15	(	(	PUNCT	PUNCT	_	16	punct	_	_
+16	1973-1974	1973-1974	NUM	NUM	_	8	nmod	_	_
 17	)	)	PUNCT	PUNCT	_	16	punct	_	_
 18	durante	durante	ADP	ADP	_	20	case	_	_
 19	el	el	DET	DET	_	20	det	_	_
@@ -5523,6 +5528,7 @@
 23	de	de	ADP	ADP	_	24	case	_	_
 24	Estado	Estado	NOUN	NOUN	_	20	nmod	_	_
 25	(	(	PUNCT	PUNCT	_	26	punct	_	_
+26	1981-1982	1981-1982	NUM	NUM	_	20	nmod	_	_
 27	)	)	PUNCT	PUNCT	_	26	punct	_	_
 28	.	.	PUNCT	PUNCT	_	8	punct	_	_
 
@@ -7939,6 +7945,7 @@
 1	La	La	DET	DET	_	2	det	_	_
 2	Serie	Serie	PROPN	PROPN	_	9	nsubj	_	_
 3	A	A	PROPN	PROPN	_	2	appos	_	_
+4	1982-1983	1982-1983	NUM	NUM	_	2	appos	_	_
 5	fue	fue	VERB	VERB	_	9	cop	_	_
 6	la	la	DET	DET	_	8	det	_	_
 7	octogésima	octogésima	ADJ	ADJ	_	8	nummod	_	_
@@ -12619,6 +12626,7 @@
 15	Eduardo	Eduardo	PROPN	PROPN	_	14	appos	_	_
 16	Poeppig	Poeppig	PROPN	PROPN	_	15	flat	_	_
 17	(	(	PUNCT	PUNCT	_	18	punct	_	_
+18	1798-1868	1798-1868	NUM	NUM	_	15	appos	_	_
 19	)	)	PUNCT	PUNCT	_	18	punct	_	_
 20	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
@@ -15882,6 +15890,7 @@
 21	Alfonso	Alfonso	PROPN	PROPN	_	19	nmod	_	_
 22	X	X	PROPN	PROPN	_	21	nummod	_	_
 23	(	(	PUNCT	PUNCT	_	24	punct	_	_
+24	1252-1284	1252-1284	NUM	NUM	_	19	appos	_	_
 25	)	)	PUNCT	PUNCT	_	24	punct	_	_
 26	,	,	PUNCT	PUNCT	_	19	punct	_	_
 27	con	con	ADP	ADP	_	29	case	_	_
@@ -17879,6 +17888,7 @@
 24	Bellium	Bellium	PROPN	PROPN	_	26	obl	_	_
 25	se	se	PRON	PRON	_	26	iobj	_	_
 26	forma	forma	VERB	VERB	_	5	advcl	_	_
+27	4-6	4-6	NUM	NUM	_	28	nummod	_	_
 28	escamas	escamas	NOUN	NOUN	_	26	nsubj	_	_
 29	membranosas	membranosas	ADJ	ADJ	_	28	amod	_	_
 30	como	como	ADP	ADP	_	31	case	_	_
@@ -22802,6 +22812,7 @@
 26	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	De	De	ADP	ADP	_	2	case	_	_
+2	1999-2003	1999-2003	NUM	NUM	_	4	nmod	_	_
 3	fue	fue	VERB	VERB	_	4	cop	_	_
 4	embajador	embajador	NOUN	NOUN	_	0	root	_	_
 5	ante	ante	ADP	ADP	_	7	case	_	_
@@ -27599,10 +27610,12 @@
 26	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 1	Cápsulas	Cápsulas	NOUN	NOUN	_	0	root	_	_
+2	1.1-1.3	1.1-1.3	NUM	NUM	_	3	nummod	_	_
 3	mm	mm	X	X	_	1	appos	_	_
 4	de	de	ADP	ADP	_	5	case	_	_
 5	largo	largo	ADJ	ADJ	_	3	amod	_	_
 6	y	y	CCONJ	CCONJ	_	8	cc	_	_
+7	1.2-1.5	1.2-1.5	NUM	NUM	_	8	nummod	_	_
 8	mm	mm	X	X	_	3	conj	_	_
 9	de	de	ADP	ADP	_	10	case	_	_
 10	ancho	ancho	ADJ	ADJ	_	8	amod	_	_
@@ -28482,6 +28495,7 @@
 13	el	el	DET	DET	_	14	det	_	_
 14	partido	partido	NOUN	NOUN	_	1	obl	_	_
 15	Celtic	Celtic	PROPN	PROPN	_	14	appos	_	_
+16	3-1	3-1	X	X	_	14	appos	_	_
 17	Dunfermline	Dunfermline	PROPN	PROPN	_	14	conj	_	_
 18	Athletic	Athletic	PROPN	PROPN	_	17	flat	_	_
 19	FC	FC	PROPN	PROPN	_	17	flat	_	_
@@ -32275,6 +32289,7 @@
 27	persuasión	persuasión	NOUN	NOUN	_	24	nmod	_	_
 28	.	.	PUNCT	PUNCT	_	18	punct	_	_
 
+1	23-02-2010	23-02-2010	X	X	_	14	dep	_	_
 2	/	/	PUNCT	PUNCT	_	1	punct	_	_
 3	El	El	DET	DET	_	4	det	_	_
 4	presidente	presidente	NOUN	NOUN	_	14	nsubj	_	_
@@ -32952,6 +32967,7 @@
 8	Edward	Edward	PROPN	PROPN	_	6	nmod	_	_
 9	Dayes	Dayes	PROPN	PROPN	_	8	flat	_	_
 10	(	(	PUNCT	PUNCT	_	11	punct	_	_
+11	1763-1804	1763-1804	X	X	_	8	appos	_	_
 12	)	)	PUNCT	PUNCT	_	11	punct	_	_
 13	,	,	PUNCT	PUNCT	_	8	punct	_	_
 14	un	un	DET	DET	_	15	det	_	_
@@ -34622,6 +34638,7 @@
 10	-	-	PUNCT	PUNCT	_	11	punct	_	_
 11	turca	turca	ADJ	ADJ	_	8	amod	_	_
 12	de	de	ADP	ADP	_	13	case	_	_
+13	1787-1792	1787-1792	X	X	_	8	nmod	_	_
 14	,	,	PUNCT	PUNCT	_	8	punct	_	_
 15	Mansur	Mansur	PROPN	PROPN	_	17	nsubj	_	_
 16	se	se	PRON	PRON	_	17	iobj	_	_
