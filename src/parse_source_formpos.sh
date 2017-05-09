@@ -13,4 +13,4 @@ bash parse_with_turboparser.sh $file.src2 $model
 cd -
 python parsed_to_inline_notation.py --infile $file.src2.parsed > $file.src.inline
 rm $file.src
-rm $file.src
+rm $file.src2

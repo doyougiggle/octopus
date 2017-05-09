@@ -2,7 +2,7 @@
 file=$1
 model=$2
 
-python discodata_target_2turboparser.py --infile $file > $file.tmp
+python discodata_target_2turboparser.py --infile $file > $file.tgt
 cd /projdata/alpage2/hmartine/tools
 bash parse_with_turboparser.sh $file.tgt $model
 cd -
