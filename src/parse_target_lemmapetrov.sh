@@ -6,5 +6,5 @@ python discodata_target_2turboparser.py --infile $file > $file.tmp
 cd /projdata/alpage2/hmartine/tools
 bash parse_with_turboparser.sh $file.tmp $model
 cd -
-python parsed_to_inline_notation.py $file.tmp.parsed > $file.inline
+python parsed_to_inline_notation.py --infile $file.tmp.parsed > $file.inline
 rm $file.tmp
