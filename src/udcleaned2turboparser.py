@@ -34,31 +34,36 @@ def main():
     for line in open(args.infile):
         line = line.strip()
         if line:
-            idx,form,lemma,upos,oldpos,feats,head,label,e1,e2 = line.split("\t")
-
-            if args.wordmode == 'form':
-                outword = form
+            if line.startswith("#"):
+                pass
             else:
-                outword = lemma
+                idx,form,lemma,upos,oldpos,feats,head,label,e1,e2 = line.split("\t")
+                if "-" in idx:
+                    pass
 
-            if args.posmode == 'upos':
-                outpos = upos
-            else:
-                outpos = petrov[upos]
+                else:
+                    if args.wordmode == 'form':
+                        outword = form
+                    else:
+                        outword = lemma
+                    if args.posmode == 'upos':
+                        outpos = upos
+                    else:
+                        outpos = petrov[upos]
 
-            if outword.startswith("REPLACE_"):
-                outword = lemma
-                outpos = "PRON"
+                    if outword.startswith("REPLACE_"):
+                        outword = lemma
+                        outpos = "PRON"
 
-            outline = ["_"] * 10
-            outline[0] = idx
-            outline[1] = outword
-            outline[2] = outword
-            outline[3] = outpos
-            outline[4] = outpos
-            outline[6] = head
-            outline[7] = label
-            print("\t".join(outline))
+                    outline = ["_"] * 10
+                    outline[0] = idx
+                    outline[1] = outword
+                    outline[2] = outword
+                    outline[3] = outpos
+                    outline[4] = outpos
+                    outline[6] = head
+                    outline[7] = label
+                    print("\t".join(outline))
         else:
             print()
 

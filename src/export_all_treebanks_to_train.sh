@@ -8,8 +8,8 @@ for lang in  en es fr de
 do
     for section in dev train
     do
-        FILENAME=$BASE/$lang-ud-$section.conllu.cleaned
-        python udcleaned2turboparser.py --infile $FILENAME --wordmode form --posmode upos > "$lang"_"$section"_form_upos.conll
-        python udcleaned2turboparser.py --infile $FILENAME --wordmode lemma --posmode petrov > "$lang"_"$section"_lemma_petrov.conll
+        FILENAME=$BASE/$lang-ud-$section.conllu
+        python udcleaned2turboparser.py --infile $FILENAME --wordmode form --posmode upos |cat -s > "$lang"_"$section"_form_upos.conll
+        python udcleaned2turboparser.py --infile $FILENAME --wordmode lemma --posmode petrov |cat -s > "$lang"_"$section"_lemma_petrov.conll
     done
 done
