@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 DIR=$1
-en_mod=$2/projdata/alpage2/hmartine/tools/en_form_upos.turbomodel_svm_mira/en_train_form_upos.conll.model
-de_mod=$2/projdata/alpage2/hmartine/tools/de_form_upos.turbomodel_svm_mira/de_train_form_upos.conll.model
-fr_mod=$2/projdata/alpage2/hmartine/tools/fr_form_upos.turbomodel_svm_mira/fr_train_form_upos.conll.model
-es_mod=$2/projdata/alpage2/hmartine/tools/es_form_upos.turbomodel_svm_mira/es_train_form_upos.conll.model
+en_mod=/projdata/alpage2/hmartine/tools/en_form_upos.turbomodel_svm_mira/en_train_form_upos.conll.model
+de_mod=/projdata/alpage2/hmartine/tools/de_form_upos.turbomodel_svm_mira/de_train_form_upos.conll.model
+fr_mod=/projdata/alpage2/hmartine/tools/fr_form_upos.turbomodel_svm_mira/fr_train_form_upos.conll.model
+es_mod=/projdata/alpage2/hmartine/tools/es_form_upos.turbomodel_svm_mira/es_train_form_upos.conll.model
 
 bash parse_source_formpos.sh $DIR/TEDdev.de-en.data.filtered.withids $de_mod de
 bash parse_source_formpos.sh $DIR/TEDdev.en-de.data.filtered.withids $en_mod en
