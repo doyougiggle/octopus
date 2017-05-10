@@ -11,7 +11,7 @@ def main():
 
 
     """2	probably	probably	ADV	ADV	_	3	advmod"""
-    tags, heads, labels = [],[],[]
+    tags, heads, labels, words = [],[],[],["root_node"]
     for line in open(args.infile):
         line = line.strip()
         if line:
@@ -19,12 +19,16 @@ def main():
             tags.append(p1)
             heads.append(h)
             labels.append(l)
+            words.append(w1)
         else:
-            outlists([tags,heads,labels])
-            tags, heads, labels = [], [], []
+            head_for_each_word = [words[int(h)] for h in heads]
+            outlists([tags, heads, labels, head_for_each_word])
+            tags, heads, labels, words = [], [], [], ["root_node"]
 
     if tags:
-        outlists([tags, heads, labels])
+        #silly variable names, here I store all words because it is comfy
+        head_for_each_word =  [words[int(h)] for h in heads]
+        outlists([tags, heads, labels,head_for_each_word])
 
 
 if __name__=="__main__":
