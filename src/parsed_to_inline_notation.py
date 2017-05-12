@@ -1,14 +1,18 @@
 import argparse
 
 
-def outlists(L):
-    print("\t".join([" ".join(l) for l in L]))
+def outlists(L,fout):
+    w = "\t".join([" ".join(l) for l in L])+"\n"
+    fout.write(w)
+
 def main():
     parser = argparse.ArgumentParser(description="""Run the NN tagger""")
     parser.add_argument("--infile", help="")
+    parser.add_argument("--outfile", help="")
     parser.add_argument("--column", help="",default=3,type=int)
     args = parser.parse_args()
 
+    fout = open(args.outfile,mode="w",encoding="utf-8")
 
     """2	probably	probably	ADV	ADV	_	3	advmod"""
     tags, heads, labels, words = [],[],[],["root_node"]
@@ -30,6 +34,7 @@ def main():
         head_for_each_word =  [words[int(h)] for h in heads]
         outlists([tags, heads, labels,head_for_each_word])
 
+    fout.close()
 
 if __name__=="__main__":
     main()

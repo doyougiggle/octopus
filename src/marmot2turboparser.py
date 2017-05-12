@@ -23,6 +23,7 @@ def main():
             fout.write(out)
         else:
             fout.write("\n")
+    fout.close()
 
 
 if __name__=="__main__":

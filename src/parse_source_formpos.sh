@@ -11,6 +11,6 @@ python marmot2turboparser.py --infile $file.src.pos --outfile  $file.src2
 cd /projdata/alpage2/hmartine/tools
 bash parse_with_turboparser.sh $file.src2 $model
 cd -
-python parsed_to_inline_notation.py --infile $file.src2.parsed > $file.src.inline
+python parsed_to_inline_notation.py --infile $file.src2.parsed --outfile $file.src.inline
 rm $file.src
 rm $file.src2

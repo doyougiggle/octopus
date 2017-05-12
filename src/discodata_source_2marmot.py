@@ -15,6 +15,8 @@ def main():
         forms = blocks[args.column]
         fout.write("\n".join(forms.split(" "))+"\n")
         fout.write("\n")
+    fout.close()
+
 
 if __name__=="__main__":
     main()
