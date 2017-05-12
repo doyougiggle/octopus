@@ -2,7 +2,7 @@
 # base
 
 
-DIR=/projdata/alpage2/hmartine/data/discomt17/toparse/train/en-de
+DIR=/projdata/alpage2/hmartine/data/discomt17/toparse/train/de-en
 target_mod=/projdata/alpage2/hmartine/tools/en_lemma_petrov.turbomodel_svm_mira/en_train_lemma_petrov.conll.model
 source_mod=/projdata/alpage2/hmartine/tools/de_form_upos.turbomodel_svm_mira/de_train_form_upos.conll.model
 source_lang=de
