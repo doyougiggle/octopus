@@ -28,6 +28,7 @@ def main():
             outline[2] = lemma
             outline[3] = pos
             outline[4] = pos
+            outline = [o.encode("utf-8") for o in outline]
             print("\t".join(outline))
         print("")
 
