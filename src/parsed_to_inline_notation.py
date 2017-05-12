@@ -26,13 +26,13 @@ def main():
             words.append(w1)
         else:
             head_for_each_word = [words[int(h)] for h in heads]
-            outlists([tags, heads, labels, head_for_each_word])
+            outlists([tags, heads, labels, head_for_each_word],fout)
             tags, heads, labels, words = [], [], [], ["root_node"]
 
     if tags:
         #silly variable names, here I store all words because it is comfy
         head_for_each_word =  [words[int(h)] for h in heads]
-        outlists([tags, heads, labels,head_for_each_word])
+        outlists([tags, heads, labels,head_for_each_word],fout)
 
     fout.close()
 
