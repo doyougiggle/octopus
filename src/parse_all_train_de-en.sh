@@ -9,6 +9,6 @@ source_lang=de
 
 for file in `ls $DIR/*withids`
 do
-bash parse_target_lemmapetrov.sh $file $target_mod
+#bash parse_target_lemmapetrov.sh $file $target_mod
 bash parse_source_formpos.sh $file $source_mod $source_lang
 done
