@@ -3,7 +3,7 @@ file=$1
 model=$2
 lang=$3
 
-python discodata_source_2marmot.py --infile $file > $file.src
+python discodata_source_2marmot.py --infile $file #> $file.src
 cd /projdata/alpage2/hmartine/tools/marmot
 bash tag_with_marmot.sh  $lang $file.src
 cd -
