@@ -16,7 +16,7 @@ def main():
 
     """2	probably	probably	ADV	ADV	_	3	advmod"""
     tags, heads, labels, words = [],[],[],["root_node"]
-    for line in open(args.infile):
+    for line in open(args.infile,encoding="utf-8"):
         line = line.strip()
         if line:
             idx,w1,w2,p1,p2,m,h,l = line.split("\t")
