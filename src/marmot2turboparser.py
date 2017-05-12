@@ -4,7 +4,9 @@ def main():
     parser = argparse.ArgumentParser(description="""Run the NN tagger""")
     parser.add_argument("--infile", help="train folder for each task") # allow multiple train files, each asociated with a task = position in the list
     args = parser.parse_args()
-    for line in open(args.infile):
+    fout = open(args.infile+"src2",mode="w",encoding="utf-8")
+
+    for line in open(args.infile,encoding="utf-8"):
         line = line.strip()
         if line:
             """3       going   _       _       _       VERB    _       _"""
@@ -15,9 +17,10 @@ def main():
             outline[2] = form
             outline[3] = pos
             outline[4] = pos
-            print("\t".join(outline))
+            out="\t".join(outline)+"\n"
+            fout.write(out)
         else:
-            print()
+            fout.write("\n")
 
 
 if __name__=="__main__":
