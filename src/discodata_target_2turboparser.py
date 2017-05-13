@@ -34,6 +34,7 @@ def main():
             outline[4] = pos
             out="\t".join(outline)+"\n"
             fout.write(out)
+        fout.write("\n")
     fout.close()
 
 
