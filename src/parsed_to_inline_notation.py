@@ -1,3 +1,5 @@
+
+
 import argparse
 
 
@@ -6,7 +8,7 @@ def outlists(L,fout):
     fout.write(w)
 
 def main():
-    parser = argparse.ArgumentParser(description="""Run the NN tagger""")
+    parser = argparse.ArgumentParser(description=""" Parser output conversion for convenience reasons""")
     parser.add_argument("--infile", help="")
     parser.add_argument("--outfile", help="")
     parser.add_argument("--column", help="",default=3,type=int)
