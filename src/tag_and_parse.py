@@ -43,7 +43,15 @@ def marmot2turboparser(temphandle):
     fout.close()
     return outfile
 
+def sentences2tokens(infile,temphandle,tok):
+    outfile = temphandle+".tok"
+    fout_tokenized = open(outfile,mode="w")
 
+    for line in open(infile).readlines():
+        lineout = "\n".join(tok.tokenize(line)) + "\n\n"
+        fout_tokenized.write(lineout)
+    fout_tokenized.close()
+    return outfile
 
 def main():
     parser = argparse.ArgumentParser(description="""Tagger+Parser""")
@@ -62,23 +70,19 @@ def main():
     print("processing...")
 
     temphandle = args.temp_path+"/octo_"+id_generator()
-    fout_tokenized = open(temphandle+".tok",mode="w")
     parsemodel = "/projdata/alpage2/hmartine/tools/"+args.language+"_form_upos.turbomodel_svm_mira/"+args.language+"_train_form_upos.conll.model"
+    tok = instance_tokenizer(args.language, stanfordpath)
+    file_to_tag = sentences2tokens(args.infile,temphandle,tok)
 
-    #DONE save tokenized to F.temp
-    tok = instance_tokenizer(args.language,stanfordpath)
-    for line in open(args.infile).readlines():
-        lineout = "\n".join(tok.tokenize(line))+"\n\n"
-        fout_tokenized.write(lineout)
-    fout_tokenized.close()
     os.chdir("/projdata/alpage2/hmartine/tools/marmot")
-    subprocess.call(("bash tag_with_marmot.sh "+args.language+" "+temphandle+".tok").split()) #the output of this will add .pos
+    subprocess.call(("bash tag_with_marmot.sh "+args.language+" "+file_to_tag).split()) #the output of this will add .pos
     #os.popen("cd -")
     file_to_parse=marmot2turboparser(temphandle)
     os.chdir("/projdata/alpage2/hmartine/tools")
     subprocess.call(("bash parse_with_turboparser.sh "+file_to_parse+" "+parsemodel).split()) #the output of this will add .pos
     subprocess.call(["mv",file_to_parse+".parsed",args.infile+".parsed"])
-    subprocess.call(("rm "+temphandle+".*").split())
+    subprocess.call(["rm", file_to_parse])
+    subprocess.call(["rm", file_to_tag])
 
 
 if __name__=="__main__":
