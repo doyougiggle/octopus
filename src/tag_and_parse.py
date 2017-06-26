@@ -25,7 +25,7 @@ def main():
     parser.add_argument("--infile", default="/Users/hmartine/proj/octopus/data/dummytext.txt")
     parser.add_argument("--outfile", default="")
     parser.add_argument("--language", default="en",type=str)
-    parser.add_argument("--temp_path",default=".")
+    parser.add_argument("--temp_path",default="/projdata/alpage2/hmartine/proj/octopus/data")
     args = parser.parse_args()
 
     #NB!! the current code assumes sentence per line. We might need to add segmentation.
@@ -48,7 +48,7 @@ def main():
     fout_tokenized.close()
     #TODO tag F.temp with Marmot, yielding F.pos that has tags
     os.chdir("/projdata/alpage2/hmartine/tools/marmot")
-    os.popen("bash tag_with_marmot.sh $"+args.language+" $"+temphandle+".tok $"+marmotmodel) #the output of this will add .pos
+    os.popen("bash tag_with_marmot.sh $"+temphandle+".tok $"+marmotmodel) #the output of this will add .pos
     #os.popen("cd -")
     #TODO turn marmot2turboparser.py - -infile $file.src.pos - -outfile  $file.src2 into function calls
     #subprocess.Popen("cd /projdata/alpage2/hmartine/tools")
