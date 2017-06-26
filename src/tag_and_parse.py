@@ -38,6 +38,7 @@ def main():
 
     temphandle = args.temp_path+"/octo_"+id_generator()
     fout_tokenized = open(temphandle+".tok",mode="w")
+    marmotmodel = "/projdata/alpage2/hmartine/tools/marmot/"+args.language+posmodel.marmot
 
     #DONE save tokenized to F.temp
     tok = instance_tokenizer(args.language,stanfordpath)
@@ -47,7 +48,7 @@ def main():
     fout_tokenized.close()
     #TODO tag F.temp with Marmot, yielding F.pos that has tags
     os.chdir("/projdata/alpage2/hmartine/tools/marmot")
-    os.popen("bash tag_with_marmot.sh $"+args.language+" $"+temphandle+".tok") #the output of this will add .pos
+    os.popen("bash tag_with_marmot.sh $"+args.language+" $"+temphandle+".tok $"+marmotmodel) #the output of this will add .pos
     #os.popen("cd -")
     #TODO turn marmot2turboparser.py - -infile $file.src.pos - -outfile  $file.src2 into function calls
     #subprocess.Popen("cd /projdata/alpage2/hmartine/tools")
