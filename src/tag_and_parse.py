@@ -33,6 +33,8 @@ def main():
     #TODO parse F.temp2, yielding F.parse -- train three models, and determine which one to actually use
     #TODO remove F.temp and F.temp2
 
+    print("processing...")
+
     temphandle = args.temp_path+"/octo_"+id_generator()
     fout_tokenized = open(temphandle+".tok",mode="w")
 
