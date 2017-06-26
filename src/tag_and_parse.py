@@ -77,7 +77,6 @@ def main():
     file_to_parse=marmot2turboparser(temphandle)
     os.chdir("/projdata/alpage2/hmartine/tools")
     subprocess.call(("bash parse_with_turboparser.sh "+file_to_parse+" "+parsemodel).split()) #the output of this will add .pos
-    subprocess.call("mv "+file_to_parse+" "+args.infile+".parse")
     subprocess.call("rm "+temphandle+"*")
 
 
