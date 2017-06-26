@@ -1,4 +1,4 @@
-import argparse,string, random, os
+import argparse,string, random, os, subprocess
 
 from nltk.tokenize import WordPunctTokenizer, StanfordTokenizer
 
@@ -72,11 +72,11 @@ def main():
         fout_tokenized.write(lineout)
     fout_tokenized.close()
     os.chdir("/projdata/alpage2/hmartine/tools/marmot")
-    os.popen2("bash tag_with_marmot.sh "+args.language+" "+temphandle+".tok",) #the output of this will add .pos
+    subprocess.Popen(("bash tag_with_marmot.sh "+args.language+" "+temphandle+".tok").split()) #the output of this will add .pos
     #os.popen("cd -")
     file_to_parse=marmot2turboparser(temphandle)
     os.chdir("cd /projdata/alpage2/hmartine/tools")
-    os.popen("bash parse_with_turboparser.sh "+file_to_parse+" "+parsemodel) #the output of this will add .pos
+    subprocess.popen(("bash parse_with_turboparser.sh "+file_to_parse+" "+parsemodel).split()) #the output of this will add .pos
 
 
 if __name__=="__main__":
