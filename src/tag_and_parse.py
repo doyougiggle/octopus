@@ -38,7 +38,7 @@ def main():
 
     temphandle = args.temp_path+"/octo_"+id_generator()
     fout_tokenized = open(temphandle+".tok",mode="w")
-    marmotmodel = "/projdata/alpage2/hmartine/tools/marmot/"+args.language+posmodel.marmot
+    marmotmodel = "/projdata/alpage2/hmartine/tools/marmot/"+args.language+"posmodel.marmot"
 
     #DONE save tokenized to F.temp
     tok = instance_tokenizer(args.language,stanfordpath)
