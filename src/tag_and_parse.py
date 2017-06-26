@@ -75,7 +75,7 @@ def main():
     subprocess.call(("bash tag_with_marmot.sh "+args.language+" "+temphandle+".tok").split()) #the output of this will add .pos
     #os.popen("cd -")
     file_to_parse=marmot2turboparser(temphandle)
-    os.chdir("cd /projdata/alpage2/hmartine/tools")
+    os.chdir("/projdata/alpage2/hmartine/tools")
     subprocess.call(("bash parse_with_turboparser.sh "+file_to_parse+" "+parsemodel).split()) #the output of this will add .pos
 
 
