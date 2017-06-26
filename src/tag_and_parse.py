@@ -63,7 +63,7 @@ def main():
 
     temphandle = args.temp_path+"/octo_"+id_generator()
     fout_tokenized = open(temphandle+".tok",mode="w")
-    parsemodel = "projdata/alpage2/hmartine/tools/"+args.language+"_form_upos.turbomodel_svm_mira/"+args.language+"_train_form_upos.conll.model"
+    parsemodel = "/projdata/alpage2/hmartine/tools/"+args.language+"_form_upos.turbomodel_svm_mira/"+args.language+"_train_form_upos.conll.model"
 
     #DONE save tokenized to F.temp
     tok = instance_tokenizer(args.language,stanfordpath)
