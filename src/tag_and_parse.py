@@ -6,6 +6,7 @@ def id_generator(size=6, chars=string.ascii_lowercase + string.digits):
     return ''.join(random.choice(chars) for _ in range(size))
 
 stanfordpath = "/projdata/alpage2/hmartine/proj/octopus/util/stanford-postagger-2017-06-09/stanford-postagger.jar"
+stanfordpath = None
 
 def instance_tokenizer(language, stanfordpath=None):
 
