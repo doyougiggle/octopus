@@ -19,6 +19,31 @@ def instance_tokenizer(language, stanfordpath=None):
 
     return tok
 
+def marmot2turboparser(temphandle):
+
+    outfile = temphandle+".toparse"
+    infile = temphandle+".tok.pos"
+    fout = open(outfile,mode="w",encoding="utf-8")
+
+    for line in open(infile,encoding="utf-8"):
+        line = line.strip()
+        if line:
+            """3       going   _       _       _       VERB    _       _"""
+            idx,form,_,_,_,pos,_,_ = line.split("\t")
+            outline = ["_"] * 10
+            outline[0] = idx
+            outline[1] = form
+            outline[2] = form
+            outline[3] = pos
+            outline[4] = pos
+            out="\t".join(outline)+"\n"
+            fout.write(out)
+        else:
+            fout.write("\n")
+    fout.close()
+    return outfile
+
+
 
 def main():
     parser = argparse.ArgumentParser(description="""Tagger+Parser""")
@@ -38,6 +63,7 @@ def main():
 
     temphandle = args.temp_path+"/octo_"+id_generator()
     fout_tokenized = open(temphandle+".tok",mode="w")
+    parsemodel = "projdata/alpage2/hmartine/tools/"+args.language+"_form_upos.turbomodel_svm_mira/"+args.language+"_train_form_upos.conll.model"
 
     #DONE save tokenized to F.temp
     tok = instance_tokenizer(args.language,stanfordpath)
@@ -45,14 +71,12 @@ def main():
         lineout = "\n".join(tok.tokenize(line))+"\n\n"
         fout_tokenized.write(lineout)
     fout_tokenized.close()
-    #TODO tag F.temp with Marmot, yielding F.pos that has tags
     os.chdir("/projdata/alpage2/hmartine/tools/marmot")
     os.popen("bash tag_with_marmot.sh "+args.language+" "+temphandle+".tok") #the output of this will add .pos
     #os.popen("cd -")
-    #TODO turn marmot2turboparser.py - -infile $file.src.pos - -outfile  $file.src2 into function calls
-    #subprocess.Popen("cd /projdata/alpage2/hmartine/tools")
-    #subprocess.Popen("bash parse_with_turboparser.sh $"+filetoparse+" $"+parsemodel) #the output of this will add .pos
-    #subprocess.Popen("cd -")
+    file_to_parse=marmot2turboparser(temphandle)
+    os.chdir("cd /projdata/alpage2/hmartine/tools")
+    os.popen("bash parse_with_turboparser.sh "+file_to_parse+" "+parsemodel) #the output of this will add .pos
 
 
 if __name__=="__main__":
