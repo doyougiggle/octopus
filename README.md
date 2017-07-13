@@ -1,20 +1,25 @@
 # octopus
-text-to-dep parse rep 
+text-to-dep parse rep
 
-The system it is configured to run on the server called cognac under Python3.5
-The script as per June 27 2017:
-python tag_and_parse.py --infile /full/path/to/the/file --language en/fr/es/de (default en)
+## Overview
 
-e.g.
-python tag_and_parse.py --infile /projdata/alpage2/hmartine/proj/octopus/data/dummytext.txt
-generates 
-/projdata/alpage2/hmartine/proj/octopus/data/dummytext.txt.parsed
+This project depends on the following tools: 
+ - Marmot (add url)
+ - TurboParser (add url)
+ 
+## Build and Run
+1. We recommend you to use virtualenv 
 
+2. Install the dependencies using
+> pip install -r requirements.txt
 
-### Principles
+3. Run it use the following command: 
+> python tag_and_parse.py --infile /full/path/to/the/file --language en/fr/es/de (default en)
 
+For example the command 
+> python tag_and_parse.py --infile dummytext.txt
 
-### Getting started
+will output the results to `dummytext.txt.parsed`
 
 
 ### API documentation
