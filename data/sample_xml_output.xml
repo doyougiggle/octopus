@@ -1,0 +1,19 @@
+<corpus>
+    <SENTENCE ord="1" alloc="0">
+        <NODE ord="4" alloc="0" form="know" lem="know" mi="VerbForm=Inf" si="root">
+            <NODE ord="1" alloc="0" form="I" lem="I" mi="Case=Nom|Number=Sing|Person=1|PronType=Prs" si="nsubj"/>
+            <NODE ord="2" alloc="0" form="do" lem="do" mi="Mood=Ind|Tense=Pres|VerbForm=Fin" si="aux"/>
+            <NODE ord="3" alloc="0" form="n't" lem="not" mi="" si="advmod"/>
+            <NODE ord="8" alloc="0" form="going" lem="go" mi="Tense=Pres|VerbForm=Part" si="ccomp">
+                <NODE ord="5" alloc="0" form="whether" lem="whether" mi="" si="mark"/>
+                <NODE ord="6" alloc="0" form="we" lem="we" mi="Case=Nom|Number=Plur|Person=1|PronType=Prs" si="nsubj"/>
+                <NODE ord="7" alloc="0" form="are" lem="be" mi="Mood=Ind|Tense=Pres|VerbForm=Fin" si="aux"/>
+                <NODE ord="11" alloc="0" form="amazed" lem="amaz" mi="Tense=Past|VerbForm=Part|Voice=Pass" si="xcomp">
+                    <NODE ord="9" alloc="0" form="to" lem="to" mi="" si="mark"/>
+                    <NODE ord="10" alloc="0" form="be" lem="be" mi="VerbForm=Inf" si="aux:pass"/>
+                </NODE>
+            </NODE>
+            <NODE ord="12" alloc="0" form="." lem="." mi="" si="punct"/>
+        </NODE>
+    </SENTENCE>
+</corpus>
