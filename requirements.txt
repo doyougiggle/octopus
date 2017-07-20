@@ -1,2 +1,4 @@
+pip>1.4
+setuptools==1.0
 requests
 bottle
